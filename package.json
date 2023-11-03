@@ -6,16 +6,17 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf __lwr_cache__",
+    "build": "lwr build",
     "dev": "lwr dev",
-    "start": "lwr serve --mode prod",
-    "start:compat": "lwr serve --mode compat",
-    "start:prod-compat": "lwr serve --mode prod-compat"
+    "start": "lwr start"
   },
   "dependencies": {
     "@salesforce-ux/design-system": "latest",
+    "fs": "^0.0.1-security",
     "lightning-base-components": "latest",
     "lwc": "latest",
-    "lwr": "latest"
+    "lwr": "latest",
+    "path": "^0.12.7"
   },
   "engines": {
     "node": ">=14.15.4 <19"
