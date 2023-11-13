@@ -12,11 +12,9 @@
   },
   "dependencies": {
     "@salesforce-ux/design-system": "latest",
-    "fs": "^0.0.1-security",
     "lightning-base-components": "latest",
     "lwc": "latest",
-    "lwr": "latest",
-    "path": "^0.12.7"
+    "lwr": "latest"
   },
   "engines": {
     "node": ">=14.15.4 <19"
